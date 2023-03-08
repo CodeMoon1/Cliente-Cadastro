@@ -8,7 +8,7 @@ Programa que simula o cadastro do cliente desenvolvido durante o curso da **EBAC
 A aplicação consiste fazer o cadastro de clientes, onde os dados são colocados em uma caixa de dialagos, e depois são armazenados na memoria, uma vez cadastrado o usuario pode ter a opção de Buscar, Editar, Remover e Sair, o processo de busca é feito atravez do CPF; 
 
 ## Layout desktop
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![Desktop 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) 
 
 
 # Tecnologias utilizadas
@@ -27,7 +27,7 @@ git clone https://github.com/CodeMoon1/Cliente-Cadastro.git
 # entrar na pasta do projeto
 
 # executar o projeto
-
+```
 
 # Autor
 

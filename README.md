@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Programa que simula o cadastro do cliente desenvolvido durante o curso da **EBAC back and Java** os dados são armazenados na memoria;
+Programa que simula o cadastro do cliente desenvolvido durante o curso da **EBAC back end Java** os dados são armazenados na memoria;
 
 A aplicação consiste fazer o cadastro de clientes, onde os dados são colocados em uma caixa de dialagos, e depois são armazenados na memoria, uma vez cadastrado o usuario pode ter a opção de Buscar, Editar, Remover e Sair, o processo de busca é feito atravez do CPF; 
 

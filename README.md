@@ -3,12 +3,9 @@
 
 # Sobre o projeto
 
-Programa que simula o cadastro de clientes, desenvolvido durante o curso da **EBAC back end Java**, observação importante!!!: os dados são armazenados na memoria;
+O seu software é uma aplicação de cadastro de clientes desenvolvida durante o curso da EBAC back end Java. Ele permite a inserção de dados de clientes por meio de uma caixa de diálogos, e os armazena na memória. Após o cadastro, o usuário pode realizar diversas ações, como buscar, editar, remover ou sair da aplicação.
 
-A aplicação consiste em fazer o cadastro de clientes, onde os dados são inseridos em uma caixa de dialagos, e depois são armazenados na memoria, uma vez cadastrado o usuario pode escolher a opção Buscar, Editar, Remover e Sair, o processo de busca é feito atravez do CPF; 
-
-Classes que podem ser utilizadas;
-HashMap se preferir escolher por uma busca rápida/inserção de dados ou HashSet;
+A busca é feita pelo CPF do cliente. Você pode escolher entre duas classes para implementar a funcionalidade de armazenamento de dados: HashMap, que permite uma busca rápida e inserção eficiente de dados, ou HashSet.
 
 ## Layout desktop
 ![Desktop 1](https://github.com/CodeMoon1/Cliente-Cadastro/blob/main/Assets/GUI.png) 

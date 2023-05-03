@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-O seu software é uma aplicação de cadastro de clientes desenvolvida durante o curso da EBAC back end Java. Ele permite a inserção de dados de clientes por meio de uma caixa de diálogos, e os armazena na memória. Após o cadastro, o usuário pode realizar diversas ações, como buscar, editar, remover ou sair da aplicação.
+O software é uma aplicação de cadastro de clientes desenvolvida durante o curso da EBAC back end Java. Ele permite a inserção de dados de clientes por meio de uma caixa de diálogos, e os armazena na memória. Após o cadastro, o usuário pode realizar diversas ações, como buscar, editar, remover ou sair da aplicação.
 
 A busca é feita pelo CPF do cliente. Você pode escolher entre duas classes para implementar a funcionalidade de armazenamento de dados: HashMap, que permite uma busca rápida e inserção eficiente de dados, ou HashSet.
 

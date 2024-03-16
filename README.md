@@ -12,6 +12,8 @@ Design Patterns: utilizado: FACADE - BUILD
 FACADE: Projeto
 BUILD: Utilizado no metodo Cadastro
 
+# Testado com JUnit
+
 # Versão antes da REFATORAÇÃO 
 # Área de cadastro do cliente 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/CodeMoon1/Cliente-Cadastro/blob/main/LICENSE) 

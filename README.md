@@ -1,6 +1,6 @@
 # CRUD Cliente/Produto
 
-# Estatistica
+# Estatística
 https://wakatime.com/@018e3b67-403a-487e-98fa-367dcb8d460f/projects/vriliwpiln?start=2024-03-10&end=2024-03-16
 
 # Sobre o Sistema

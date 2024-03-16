@@ -11,9 +11,9 @@ Foi implementada uma superclasse genérica/abstrata que aproveita os métodos es
 
 Uma vez que a superClasse Possui os metodos genéricos para Cadastro - Remoção - Busca - BuscarTodos, é possível criar a classe Produto e sua respectiva DAO passando um produto para esta superclasse genérica.
 
-Design Patterns: utilizado: FACADE - BUILD
-FACADE: Projeto
-BUILD: Utilizado no metodo Cadastro
+Design Patterns: utilizado: FACADE - BUILD.
+FACADE: Projeto.
+BUILD: Utilizado no metodo Cadastro.
 
 # Testado com JUnit
 

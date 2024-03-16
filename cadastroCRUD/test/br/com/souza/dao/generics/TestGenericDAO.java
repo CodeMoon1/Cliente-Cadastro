@@ -1,4 +1,4 @@
-package br.com.souza.Dao.generics;
+package br.com.souza.dao.generics;
 
 import br.com.souza.Dao.ClienteDAO;
 import br.com.souza.Dao.IClienteDAO;

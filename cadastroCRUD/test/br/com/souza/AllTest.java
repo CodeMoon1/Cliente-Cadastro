@@ -1,7 +1,7 @@
-package br.com.souza.Dao;
+package br.com.souza;
 
 
-import br.com.souza.Dao.generics.TestGenericDAO;
+import br.com.souza.dao.generics.TestGenericDAO;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

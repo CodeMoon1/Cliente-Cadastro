@@ -1,5 +1,6 @@
-package br.com.souza.Dao;
+package br.com.souza;
 
+import br.com.souza.Dao.ClienteDAO;
 import br.com.souza.domain.Cliente;
 import org.junit.Assert;
 import org.junit.Test;

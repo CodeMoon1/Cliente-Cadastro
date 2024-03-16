@@ -1,4 +1,4 @@
-package br.com.souza.Dao.generics;
+package br.com.souza.generics;
 
 import br.com.souza.domain.Persistente;
 

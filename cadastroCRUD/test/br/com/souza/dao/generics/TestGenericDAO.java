@@ -61,11 +61,12 @@ public class TestGenericDAO {
         c.setNumero("17");
         c.setCidade("mobotropolis");
         c.setEstado("seiNão");
-        cd.cadastrar(c);
         //cadastra um Cliente
+        cd.cadastrar(c);
+        //Busca o Cliente Cadastrado
         Cliente consultado = cd.consultar(c.getCodigo());
 
-        //Exclusão
+        //Exclusão do Cliente Cadastrado
         cd.excluir(consultado.getCodigo());
 
         //consulta do cliente deletado

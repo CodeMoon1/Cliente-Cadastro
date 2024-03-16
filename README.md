@@ -1,9 +1,24 @@
+# CRUD Cliente/Produto
+
+# Sobre o Sistema
+O sistema passou por uma refatoração para receber tambem um cadastro de Produtos!
+
+# O que foi modificado?
+Foi implementada uma superclasse genérica/abstrata que aproveita os métodos específicos da classe anterior (ClienteMapDao, agora uma subclasse), eliminando a necessidade de especificá-los e de implementar a lógica específica para cada classe.
+
+Uma vez que a superClasse Possui os metodos genéricos para Cadastro - Remoção - Busca - BuscarTodos, é possível criar a classe Produto e sua respectiva DAO passando um produto para esta superclasse genérica.
+
+Design Patterns: utilizado: FACADE - BUILD
+FACADE: Projeto
+BUILD: Utilizado no metodo Cadastro
+
+# Versão antes da REFATORAÇÃO 
 # Área de cadastro do cliente 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/CodeMoon1/Cliente-Cadastro/blob/main/LICENSE) 
 
 # Sobre o projeto
 
-O software é uma aplicação de cadastro de clientes desenvolvida durante o curso da EBAC back end Java. Ele permite a inserção de dados de clientes por meio de uma caixa de diálogos, e os armazena na memória. Após o cadastro, o usuário pode realizar diversas ações, como buscar, editar, remover ou sair da aplicação.
+O software é uma aplicação de cadastro de clientes. Ele permite a inserção de dados de clientes por meio de uma caixa de diálogos, e os armazena na memória. Após o cadastro, o usuário pode realizar diversas ações, como buscar, editar, remover ou sair da aplicação.
 
 A busca é feita pelo CPF do cliente. Você pode escolher entre duas classes para implementar a funcionalidade de armazenamento de dados: HashMap, que permite uma busca rápida e inserção eficiente de dados, ou HashSet.
 

@@ -15,7 +15,12 @@ Design Patterns: utilizado: FACADE - BUILD.
 FACADE: Projeto.
 BUILD: Utilizado no metodo Cadastro.
 
-# Testado com JUnit
+# Testado
+  - JUnit
+
+# Remoção 
+  - Inteface gui
+  - Classe ClienteSetDao
 
 # Versão antes da REFATORAÇÃO 
 # Área de cadastro do cliente 

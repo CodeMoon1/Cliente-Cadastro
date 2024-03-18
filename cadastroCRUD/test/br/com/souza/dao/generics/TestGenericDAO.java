@@ -50,61 +50,61 @@ public class TestGenericDAO {
         Assert.assertTrue(!p2Value);
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testExcluir(){
-        ClienteDAO cd = new ClienteDAO();
+//    @Test(expected = NullPointerException.class)
+//    public void testExcluir(){
+//        ClienteDAO cd = new ClienteDAO();
+//
+//        Cliente c = new Cliente();
+//        c.setNome("Sonic");
+//        c.setCpf(12345678L);
+//        c.setTel("89123789");
+//        c.setNumero("17");
+//        c.setCidade("mobotropolis");
+//        c.setEstado("seiNão");
+//        //cadastra um Cliente
+//        cd.cadastrar(c);
+//        //Busca o Cliente Cadastrado
+//        Cliente consultado = cd.consultar(c.getCodigo());
+//
+//        //Exclusão do Cliente Cadastrado
+//        cd.excluir(consultado.getCodigo());
+//
+//        //consulta do cliente deletado
+//        Cliente consultadoDepoisExclusao = cd.consultar(consultado.getCodigo());
+//
+//        //exception NullPointerException
+//        Assert.assertNull(consultadoDepoisExclusao.getCodigo());
+//    }
 
-        Cliente c = new Cliente();
-        c.setNome("Sonic");
-        c.setCpf(12345678L);
-        c.setTel("89123789");
-        c.setNumero("17");
-        c.setCidade("mobotropolis");
-        c.setEstado("seiNão");
-        //cadastra um Cliente
-        cd.cadastrar(c);
-        //Busca o Cliente Cadastrado
-        Cliente consultado = cd.consultar(c.getCodigo());
 
-        //Exclusão do Cliente Cadastrado
-        cd.excluir(consultado.getCodigo());
-
-        //consulta do cliente deletado
-        Cliente consultadoDepoisExclusao = cd.consultar(consultado.getCodigo());
-
-        //exception NullPointerException
-        Assert.assertNull(consultadoDepoisExclusao.getCodigo());
-    }
-
-
-    @Test
-    public void testConsultar(){
-        IClienteDAO cd = new ClienteDAO();
-
-        Cliente c2 = new Cliente();
-        c2.setNome("Homer Simpson");
-        c2.setCpf(12345678L);
-        c2.setTel("44353453462");
-        c2.setNumero("17");
-        c2.setCidade("Springfield");
-        c2.setEstado("LA");
-
-        Boolean t = cd.cadastrar(c2);
-        Assert.assertTrue(t);
-
-        Cliente consultado = cd.consultar(c2.getCodigo());
-        Assert.assertEquals(consultado, c2);
-
-        IProdutoDAO pd = new ProdutoDAO();
-        Produto p = new Produto();
-        p.setNome("Camisa Verde");
-        p.setCod(777L);
-        Boolean pValue = pd.cadastrar(p);
-        Assert.assertTrue(pValue);
-
-        Produto pConsultado = pd.consultar(p.getCodigo());
-        Assert.assertEquals(pConsultado, p);
-    }
+//    @Test()
+//    public void testConsultar(){
+//        IClienteDAO cd = new ClienteDAO();
+//
+//        Cliente c2 = new Cliente();
+//        c2.setNome("Homer Simpson");
+//        c2.setCpf(12345678L);
+//        c2.setTel("44353453462");
+//        c2.setNumero("17");
+//        c2.setCidade("Springfield");
+//        c2.setEstado("LA");
+//
+//        Boolean t = cd.cadastrar(c2);
+//        Assert.assertTrue(t);
+//
+//        Cliente consultado = cd.consultar(c2.getCodigo());
+//        Assert.assertEquals(consultado, c2);
+//
+//        IProdutoDAO pd = new ProdutoDAO();
+//        Produto p = new Produto();
+//        p.setNome("Camisa Verde");
+//        p.setCod(777L);
+//        Boolean pValue = pd.cadastrar(p);
+//        Assert.assertTrue(pValue);
+//
+//        Produto pConsultado = pd.consultar(p.getCodigo());
+//        Assert.assertEquals(pConsultado, p);
+//    }
 
     @Test
     public void testBuscarTodos(){

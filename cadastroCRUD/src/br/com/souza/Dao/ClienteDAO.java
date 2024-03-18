@@ -1,5 +1,5 @@
 package br.com.souza.Dao;
-import br.com.souza.generics.GenericDAO;
+import br.com.souza.Dao.generics.GenericDAO;
 import br.com.souza.domain.Cliente;
 
 import java.util.HashMap;

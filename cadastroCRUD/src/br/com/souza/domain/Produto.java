@@ -1,9 +1,12 @@
 package br.com.souza.domain;
 
+import br.com.souza.anotation.TipoChave;
+
 import java.util.Objects;
 
 public class Produto implements Persistente {
     private String nome;
+    @TipoChave("getCod")
     private Long cod;
 
     public Produto(){
@@ -25,10 +28,10 @@ public class Produto implements Persistente {
         this.cod = cod;
     }
 
-    @Override
-    public Long getCodigo() {
-        return this.getCod();
-    }
+//    @Override
+//    public Long getCodigo() {
+//        return this.getCod();
+//    }
 
     @Override
     public boolean equals(Object o) {

@@ -1,7 +1,11 @@
 package br.com.souza.domain;
+
+import br.com.souza.anotation.TipoChave;
+
 public class Cliente implements Persistente{
 
     private String nome;
+    @TipoChave("getCpf")
     private Long cpf;
     private Long tel;
     private String endereco;
@@ -98,8 +102,8 @@ public class Cliente implements Persistente{
         return "Nome Cliente: " + this.nome + " CPF: " + this.cpf + " Endereço: "+this.endereco;
     }
 
-    @Override
-    public Long getCodigo() {
-        return this.getCpf();
-    }
+//    @Override
+//    public Long getCodigo() {
+//        return this.getCpf();
+//    }
 }

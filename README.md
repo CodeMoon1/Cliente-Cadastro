@@ -4,7 +4,7 @@
 https://wakatime.com/@018e3b67-403a-487e-98fa-367dcb8d460f/projects/vriliwpiln?start=2024-03-10&end=2024-03-16
 
 # Sobre o Sistema
-O sistema passou por uma refatoração para receber tambem um cadastro de Produtos!
+O sistema passou por uma refatoração para receber também um cadastro de Produtos!
 
 # O que foi modificado?
 Foi implementada uma superclasse genérica/abstrata que aproveita os métodos específicos da classe anterior (ClienteMapDao, agora uma subclasse), eliminando a necessidade de especificá-los e de implementar a lógica específica para cada classe.
